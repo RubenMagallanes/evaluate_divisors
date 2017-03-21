@@ -23,20 +23,20 @@ My solution is in the file **evaluate_divisors.js**. It handles large ranges of 
 
 I have written soltutions in both Python and Javascript.  
 
-The Python scripts can be set to executable and run from a terminal.  
+The Python scripts can be set to executable and run from a terminal:  
 >1 $chmod 744 odd-divisors_optimized.py  
 >2 $./odd-divisors_optimized.py
 
-Interestingly enough, the Python implementation run much slower than the Javascript does, even though the algorithm is the same. To illustrate that the solution is still the correct, optimized version, there is a brute-force Python solution that the optimized solution can be compared against. 
+Interestingly enough, the Python implementation runs much slower than the Javascript does, even though the algorithm is the same. To illustrate that the solution is still the correct, optimized version, there is a brute-force Python solution that the optimized solution can be compared against. You will find that the optimized version runs *much* faster than the other. 
 
 To run Jasmine tests to evaluate my Javascript solution:  
 
-1. Install node on your machine if you have not already from: https://nodejs.org/en/
-2. Install gulp globally using npm
-    $ npm install --global gulp-cli
-2. Run npm install from the directory containing this file (Ignore any warning messages. However, if you receive any critical errors we suggest that you upgrade your version of Node.js)
-    $ npm install
-3. Run the server
-    $ gulp
-4. Open http://localhost:5000/ in a browser
+>1. Install node on your machine if you have not already from: https://nodejs.org/en/
+>2. Install gulp globally using npm
+>    $ npm install --global gulp-cli
+>2. Run npm install from the directory containing this file (Ignore any warning messages. However, if you receive any critical errors i suggest that you upgrade your version of Node.js)
+>    $ npm install
+>3. Run the server
+>    $ gulp
+>4. Open http://localhost:5000/ in a browser
 
