@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "engines": {
+    "node": "5.9.1"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1"
+  }
+}

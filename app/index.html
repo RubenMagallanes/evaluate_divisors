@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link data-require="jasmine@2.2.1" data-semver="2.2.1" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jasmine/2.2.1/jasmine.css" />
+  <script data-require="jasmine@2.2.1" data-semver="2.2.1" src="http://cdnjs.cloudflare.com/ajax/libs/jasmine/2.2.1/jasmine.js"></script>
+  <script data-require="jasmine@2.2.1" data-semver="2.2.1" src="http://cdnjs.cloudflare.com/ajax/libs/jasmine/2.2.1/jasmine-html.js"></script>
+  <script data-require="jasmine@2.2.1" data-semver="2.2.1" src="http://cdnjs.cloudflare.com/ajax/libs/jasmine/2.2.1/boot.js"></script>
+  <link href="style.css" rel="stylesheet" />
+  <script src="script.js"></script>
+
+  <script src="test.js"></script>
+  <style>
+    body {
+      font-family: Helvetica, Arial, Sans-serif;
+      background-color:#d7d7da;
+    }
+    .instructions {
+      line-height:22px;
+      margin: -5px 5px 25px;
+    }
+    .rule{
+      font-family: courier, monospace;
+      color: #4400aa;
+    }
+    .condition{
+      margin: 5px 20px;
+    }
+    .note{
+      display:block;
+      margin-top:10px;
+      font-size:15px;
+      font-style:italic;
+    }
+    b{
+      color: #bb00dd;
+    }
+  </style>
+</head>
+
+<body>
+<h1>Odd number of divisors problem:</h1>
+<div class="instructions">
+  Given 3 inputs A, B and K:
+  <div class="condition">
+    where <span class="rule"> 1 &lt; A &lt; B</span>
+    <br/>
+    and <span class="rule">K is a positive <b>odd</b> number.</span>
+  </div>
+  Implement the function evaluateDivisors(a,b,k) in the file scripts.js <br/>
+  The function should return the number of integers between A and B inclusive that have exactly K divisors.<br/>
+  <br/>
+  The solution must pass the jasmine unit tests provided, the results of which are shown on this page.
+  When in 'live preview' mode the tests will re-run automatically when plunker detects changes in the code.
+  It maybe helpful to turn on and off and on live preview to stop this while you are coding.<br/><br/>
+  Once you solution is running, try unskipping the tests for larger ranges, to evaluate how efficient your solution is.
+  A well thought-out and optimised solution will be able to run these large ranges in a few seconds.
+</div>
+</body>
+</html>
