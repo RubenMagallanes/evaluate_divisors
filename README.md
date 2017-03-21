@@ -25,7 +25,7 @@ I have written soltutions in both Python and Javascript.
 
 The Python scripts can be set to executable and run from a terminal.  
 >1 $chmod 744 odd-divisors_optimized.py  
->2 $../odd-divisors_optimized.py
+>2 $./odd-divisors_optimized.py
 
 Interestingly enough, the Python implementation run much slower than the Javascript does, even though the algorithm is the same. To illustrate that the solution is still the correct, optimized version, there is a brute-force Python solution that the optimized solution can be compared against. 
 
