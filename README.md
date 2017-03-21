@@ -29,6 +29,7 @@ The Python scripts can be set to executable and run from a terminal:
 
 Interestingly enough, the Python implementation runs much slower than the Javascript does, even though the algorithm is the same. To illustrate that the solution is still the correct, optimized version, there is a brute-force Python solution that the optimized solution can be compared against. You will find that the optimized version runs *much* faster than the other. 
 
+As mentioned above, the Javascript implementation completes all tests in about 2 seconds.  
 To run Jasmine tests to evaluate my Javascript solution:  
 
 >1. Install node on your machine if you have not already from: https://nodejs.org/en/
