@@ -13,8 +13,7 @@ My solution is in the file evaluate_divisors.js. It handles large ranges of numb
 
 
 
-TO RUN JASMINE TESTS DEMONSTRATING MY SOLUTION 
-
+To run Jasmine tests to evaluate my solution:  
 
 1. Install node on your machine if you have not already from: https://nodejs.org/en/
 2. Install gulp globally using npm
